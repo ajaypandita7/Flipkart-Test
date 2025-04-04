@@ -30,9 +30,11 @@ public class BaseClass {
 		String url = utilClass.util("url");
 		driver.get(url);
 		
-		System.out.println("Hello 123");
-		System.out.println("Hello 123");
-		System.out.println("Hello 123");
+		System.out.println("Hello Git");
+		System.out.println("Hello Git");
+		System.out.println("Hello Git");
+
+	
 	}
 	
 	@BeforeTest
