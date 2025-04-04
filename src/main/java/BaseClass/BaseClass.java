@@ -29,6 +29,10 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		String url = utilClass.util("url");
 		driver.get(url);
+		
+		System.out.println("Hello 123");
+		System.out.println("Hello 123");
+		System.out.println("Hello 123");
 	}
 	
 	@BeforeTest
