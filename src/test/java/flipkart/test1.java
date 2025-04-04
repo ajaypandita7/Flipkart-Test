@@ -30,7 +30,10 @@ public class test1 extends BaseClass {
 	Actions Act =new Actions(driver);
 	Act.moveToElement(home.LoginButton()).perform();
 	home.LoginButton().click();
-	
+	System.out.println("Hello 123");
+	System.out.println("Hello 123");
+	System.out.println("Hello 123");
+
     }	
 	
 //	@Test
