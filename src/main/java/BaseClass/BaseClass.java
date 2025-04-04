@@ -19,7 +19,8 @@ public class BaseClass {
 	}
 	@BeforeMethod
 	public void beforeMethod() throws Exception {
-		
+		System.out.println("Hello 123");
+
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		String url = utilClass.util("url");
