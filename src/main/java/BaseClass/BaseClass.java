@@ -36,9 +36,9 @@ public class BaseClass {
 	
 	@BeforeTest
 	public void beforeTest() {
-		System.out.println("Hello Git");
-		System.out.println("Hello Git");
-		System.out.println("Hello Git");
+		System.out.println("Hello Test");
+		System.out.println("Hello Test");
+		System.out.println("Hello Test");
 	}
 	
 	@AfterTest
