@@ -36,9 +36,9 @@ public class BaseClass {
 	
 	@BeforeTest
 	public void beforeTest() {
-		System.out.println("Hello Merge");
-		System.out.println("Hello Merge");
-		System.out.println("Hello Merge");
+		System.out.println("Hello Anil");
+		System.out.println("Hello Anil");
+		System.out.println("Hello Anil");
 	}
 	
 	@AfterTest
