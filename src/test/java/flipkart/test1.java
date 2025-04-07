@@ -15,7 +15,9 @@ public class test1 extends BaseClass {
 	HomePage home;
 	@Test(priority = 0)
 	public void test2() throws InterruptedException {
-		
+		System.out.println("Hello Git");
+		System.out.println("Hello Git");
+		System.out.println("Hello Git");
 	home=new HomePage(driver);
 	Actions Act =new Actions(driver);
 	Act.moveToElement(home.garments()).perform();
@@ -32,7 +34,6 @@ public class test1 extends BaseClass {
 	home.LoginButton().click();
 	
 	System.out.println("Hello 123");
-	System.out.println("Hello Test");
 
     }	
 	

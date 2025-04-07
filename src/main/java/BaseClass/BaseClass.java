@@ -26,9 +26,7 @@ public class BaseClass {
 		String url = utilClass.util("url");
 		driver.get(url);
 		
-		System.out.println("Hello Git");
-		System.out.println("Hello Git");
-		System.out.println("Hello Git");
+		
 
 		System.out.println("Hello Git");
 		System.out.println("Hello Test");
@@ -38,7 +36,9 @@ public class BaseClass {
 	
 	@BeforeTest
 	public void beforeTest() {
-		
+		System.out.println("Hello Git");
+		System.out.println("Hello Git");
+		System.out.println("Hello Git");
 	}
 	
 	@AfterTest
